@@ -19,7 +19,8 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
+    'console_scripts': [
+        'ekf_node = ekf_localization_ros2.ekf_node:main',
         ],
     },
 )
